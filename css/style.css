@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(141, 138, 145);
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+
+}
+
+nav {
+  margin-right: 20px;
+
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.mainimage {
+  height: 300px;
+  display: block;
+  width: 100%;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headingAboutMe {
+  border-right: 10px solid black;
+  padding-right: 20px;
+}
+
+.hero-banner h2 {
+
+  position: relative;
+  bottom: 50px;
+  left: 80%;
+  background-color: blueviolet;
+  width: 250px;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.sectionheading {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.sectionheading h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.subAboutMe {
+
+  width: 800px;
+  height: 300px;
+  border: 10px solid rgb(8, 8, 8);
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(176, 180, 179);
+
+}
+
+.sectionheading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.workSection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.workSection h2 {
+  text-shadow: 2px 2px 5px red;
+}
+
+.workImage-1 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+}
+
+.sectionheading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.workSection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.workSection h2 {
+  text-shadow: 2px 2px 5px red;
+}
+
+a:hover {
+  background-color: hsl(81, 94%, 51%);
+}
+
+.workImage-2 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+}
+
+.Projectsection {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Projectsection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-right: 540px;
+  margin-top: 10px;
+}
+
+
+.Projectimage-1 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+
+}
+
+.Projectsection {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Projectsection h2 {
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-right: 540px;
+  margin-top: 10px;
+}
+
+
+.Projectimage-2 {
+  height: 175px;
+  width: 300px;
+  border: 10px solid rgb(7, 7, 7);
+  padding: 10px;
+  margin: 30px;
+
+}
+
+.footersection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 40px;
+}
+
+#contactmee-mail {
+  color: red;
+  border: 3px;
+}
+
+#contactmemobilenumber {
+  color: green;
+  border-radius: 5px;
+}
+
+#contactmegithub {
+  color: blue;
+  border-radius: 5px;
+}
+
+
+.contact-info .address {
+  display: flex;
+  text-align: center;
+}
+
+
+
+.footersection h2 {
+  display: flex;
+  border-right: 10px solid black;
+  padding-right: 20px;
+  margin-right: 1200px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+}
+
+
+
+
+
+@media (min-width: 30em) and (max-width: 80em) {
+  body {
+    background-color: purple;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactmeimage {
+
+  height: 200px;
+  width: 200px;
+  border: 10px solid green;
+  padding: 10px;
+  margin: 10px;
+}
